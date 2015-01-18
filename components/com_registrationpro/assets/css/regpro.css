@@ -1,0 +1,748 @@
+/* CSS Document */
+/******** Class use to make border on every sections ********/
+.regpro_error {
+  background-color: #FFE;
+  border: 1px solid #CC9;
+  color:#C00;
+  text-transform:uppercase;
+  padding: 4px;
+  text-align:center;
+  vertical-align:middle;
+  font-weight:bold;
+}
+
+.regpro_outline {
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  padding: 2px;
+  color:#000000;
+}
+
+div#regpro_outline a:link, div#regpro_outline a:visited  {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+div#regpro_outline a:hover {
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+.regpro_vtop {
+	vertical-align:top;
+}
+
+.regpro_vtop_aright {
+	vertical-align:top;
+	text-align:right;
+}
+
+.regpro_vtop_aleft {
+	vertical-align:top;
+	text-align:left;
+}
+
+.regpro_vtop_acenter {
+	vertical-align:top;
+	text-align:center;
+}
+
+.regpro_vmiddle_aright {
+	vertical-align:middle;
+	text-align:right;
+}
+
+.regpro_vmiddle_aleft {
+	vertical-align:middle;
+	text-align:left;
+}
+
+.regpro_vmiddle_acenter {
+	vertical-align:middle;
+	text-align:center;
+}
+
+.regpro_aleft{
+	text-align:left;
+}
+
+.regpro_aright{
+	text-align:right;
+}
+
+.regpro_acenter{
+	text-align:center;
+}
+
+.regpro_search_table{	
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+
+/* event discouint css */
+.regpro_event_discount {	
+	background: #FFFFCC;							
+}
+
+.regpro_cart_event_discount {	
+	background: #FFFFCC;
+	font-size:12px;
+	color:#FF0000;
+	text-transform:uppercase;						
+}
+
+/* registration form separator */
+.regpro_reg_form_separator {	
+	background: #FFFFCC;							
+}
+/* end */
+
+/* ajax loading css box */
+#ajaxmessagebox_frontend {
+	margin-bottom:10px;
+	width: auto;
+	padding: 4px;
+	border: solid 1px #DEDEDE;
+	background: #FFFFCC;
+	display: none;
+	text-align:center;								
+}
+
+/* content tables */
+.regpro_sectiontableheader {
+  background: #efefef;
+  color: #333;
+  font-weight: bold;
+  padding: 4px;
+  border-right: 1px solid #fff;
+}
+
+.regpro_sectiontableheader-regpro {
+  background: #efefef;
+  color: #333;
+  font-weight: bold;
+  padding: 4px;
+  border-right: 1px solid #fff;
+}
+
+/* content tables */
+
+.regpro_header-regpro {
+  background: #efefef;
+  color:#000000;
+  font-weight: bold;
+  padding: 4px;
+  border-right: 1px solid #fff;
+  vertical-align:middle;
+}
+
+.regpro_footer-regpro {
+  background: #efefef;
+  color: #000000;
+  font-size:10px;
+  padding: 2px;
+  border-right: 1px solid #fff;
+}
+
+.regpro_blink{
+	text-decoration:blink;
+}
+
+.regpro_registration_allowed{
+	background: #efefef;
+	color:#333333;
+	font-size:15px;
+	font-weight:bold;
+}
+
+/* button classes */
+.regpro_button {	
+	font-size: 85%;
+	color:#333;
+}
+
+.regpro_button:hover, .button:focus {
+	color: #000000;
+}
+
+table.attendeelist {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color: #666;
+}
+
+table.attendeelist {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color: #666;
+}
+
+table.attendeelist td,
+table.attendeelist th { padding: 4px; }
+
+table.attendeelist thead th {
+	text-align: left;
+	background: #f0f0f0;
+	color: #666;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #fff;
+}
+
+table.attendeelist thead a:hover { text-decoration: none; }
+
+table.attendeelist thead th img { vertical-align: middle; }
+
+table.attendeelist tbody th { font-weight: bold; }
+
+table.attendeelist tbody tr			{ background-color: #fff;  text-align: left; }
+table.attendeelist tbody tr.row1 	{ background: #f9f9f9; border-top: 1px solid #fff; }
+
+table.attendeelist tbody tr.row0:hover td,
+table.attendeelist tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.attendeelist tbody tr td 	   { height: 25px; background: #fff; border: 1px solid #fff; }
+table.attendeelist tbody tr.row1 td { background: #f9f9f9; border-top: 1px solid #FFF; }
+
+table.attendeelist tfoot tr { text-align: center;  color: #333; }
+table.attendeelist tfoot td,
+table.attendeelist tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.attendeelist td.order 		{ text-align: center; white-space: nowrap; }
+table.attendeelist td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+table.attendeelist .pagination { display:table; padding:0;  margin:0 auto;	 }
+
+.pagination div.limit {
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	margin: 0 10px;
+}
+
+/******* fields groups *************/
+.regpro_field_groups {
+  /*background: #efefef;*/
+  color: #333;
+  font-weight: bold;
+  padding: 4px;
+  text-align:right;
+  vertical-align:top;
+}
+
+/****** Event detail page heading *******/
+.regpro_detailsheading {
+ 	padding: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family:Helvetica ,Arial,sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	vertical-align: bottom;
+	color: #666;
+	text-align: left;
+	width: 100%;
+}
+
+/********* for event name above the tickets in cart ************/
+#regpro_eventoncart {
+	font-size:10px;
+	font-weight:bold;
+	background-color:#efefef;
+	text-align:center;
+}
+
+/********* register for multiple events button above text ************/
+.regpro_multipleeventtext {
+	text-align:center;
+	font-weight:bold;	
+}
+
+/********* Form Input elments class ********************/
+.regpro_inputbox {
+	BACKGROUND-COLOR: #FFFFFF;
+	COLOR: #000000;
+	BORDER-RIGHT: #a6a6a6 1px solid; 
+	BORDER-TOP: #a6a6a6 1px solid;
+	BORDER-LEFT: #a6a6a6 1px solid; 
+	BORDER-BOTTOM: #a6a6a6 1px solid;
+	PADDING-RIGHT: 0px; 	 
+	PADDING-LEFT: 0px; 
+	FONT-SIZE: 8pt; 
+	PADDING-BOTTOM: 1px;		
+	PADDING-TOP: 1px;	
+	/*FONT-FAMILY: Tahoma;*/		
+}
+
+.fValidator-form input, select{
+	BACKGROUND-COLOR: #FFFFFF;
+	COLOR: #000000;
+	BORDER-RIGHT: #a6a6a6 1px solid; 
+	BORDER-TOP: #a6a6a6 1px solid;
+	BORDER-LEFT: #a6a6a6 1px solid; 
+	BORDER-BOTTOM: #a6a6a6 1px solid;
+	PADDING-RIGHT: 0px; 	 
+	PADDING-LEFT: 0px; 
+	FONT-SIZE: 8pt; 
+	PADDING-BOTTOM: 1px;		
+	PADDING-TOP: 1px;
+}
+
+.fValidator-msg {
+	background-color: c00;
+	font-size: 9.5px;
+	color: #FF0000;
+	padding-right:23%;
+	float:right;
+	vertical-align:top;
+}
+
+
+/**************** Terms and conditions page *****************/
+.regpro_terms_head {
+	background-color:#efefef;
+	text-transform:capitalize;
+	font-weight:bold;
+}
+
+/******* Confirmation email css classes *******/
+/*
+table.tickets_data {
+	border-width: 1px 1px 1px 1px;
+	border-spacing: 1px;
+	border-style: none none none none;
+	border-color: black black black black;
+	border-collapse: separate;
+	background-color: #000000;
+}
+table.tickets_data th {
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: hidden hidden hidden hidden;
+	border-color: gray gray gray gray;
+	background-color: #f0f0ee;	
+}
+table.tickets_data td {
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: hidden hidden hidden hidden;
+	border-color: gray gray gray gray;
+	background-color: #ffffcc;
+}*/
+
+/******************************************************* Form table styles *******************************************************************************/
+
+table.admintable td.key.vtop { vertical-align: top; }
+
+table.adminform {
+	background-color: #f9f9f9;
+	border: solid 1px #d5d5d5;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 8px 0 10px 0;
+	margin-bottom: 15px;
+	width: 100%;
+}
+table.adminform.nospace { margin-bottom: 0; }
+table.adminform tr.row0 { background-color: #f9f9f9; }
+table.adminform tr.row1 { background-color: #eeeeee; }
+
+table.adminform th {
+	font-size: 11px;
+	padding: 6px 2px 4px 4px;
+	text-align: left;
+	height: 25px;
+	color: #000;
+	background-repeat: repeat;
+}
+table.adminform td { padding: 3px; text-align: left; }
+
+table.adminform td.filter{
+	text-align: left;
+}
+
+table.adminform td.helpMenu{
+	text-align: right;
+}
+
+
+fieldset.adminform { border: 1px solid #ccc; margin: 0 10px 10px 10px; }
+
+/***** *******/
+
+table.regproform {
+	background-color: #f9f9f9;
+	border: solid 1px #d5d5d5;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 8px 0 10px 0;
+	margin-bottom: 15px;
+	width: 100%;
+}
+table.regproform tr,td{
+	border:solid 0px;
+}
+table.regproform.nospace { margin-bottom: 0; }
+table.regproform tr.row0 { background-color: #f9f9f9; }
+table.regproform tr.row1 { background-color: #eeeeee; }
+
+table.regproform th {
+	font-size: 13px;
+	padding: 6px 2px 4px 4px;
+	text-align: left;
+	height: 25px;
+	color: #000;
+	background-repeat: repeat;
+}
+table.regproform td { padding: 3px; text-align: left; border:solid 0px;}
+
+table.regproform td.filter{
+	text-align: left;
+}
+
+table.regproform td.helpMenu{
+	text-align: right;
+}
+
+fieldset.regproform { border: 1px solid #ccc; margin: 0 10px 10px 10px;}
+
+/******************************************************* End Form table styles *******************************************************************************/
+
+/******************************************************* Listing Table styles *******************************************************************************/
+
+/** Main Listing Table styles **/
+
+table.eventlisting {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color: #666;
+	color:#000000;
+}
+
+table.eventlisting td,
+table.eventlisting th { padding: 4px; }
+
+table.eventlisting thead th {
+	text-align: center;
+	background: #f0f0f0;
+	color: #666;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #fff;
+}
+
+table.eventlisting thead a:hover { text-decoration: none; }
+
+table.eventlisting thead th img { vertical-align: middle; }
+
+table.eventlisting tbody th { font-weight: bold; }
+
+table.eventlisting tbody tr			{ background-color: #fff;  text-align: left;}
+table.eventlisting tbody tr.row1 	{ background: #f9f9f9; border-top: 1px solid #fff; }
+
+table.eventlisting tbody tr.row0:hover td,
+table.eventlisting tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.eventlisting tbody tr td 	   { height: 25px; background: #fff; border: 1px solid #fff;}
+table.eventlisting tbody tr.row1 td { background: #f9f9f9; border-top: 1px solid #FFF; }
+
+table.eventlisting tfoot tr { text-align: center;  color: #333; }
+table.eventlisting tfoot td,
+table.eventlisting tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.eventlisting td.order 		{ text-align: center; white-space: nowrap; }
+table.eventlisting td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+table.eventlisting .pagination { display:table; padding:0;  margin:0 auto;	 }
+
+/** End Main Listing Table styles **/
+
+/** common Table styles **/
+
+table.regprocommon {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color: #666;
+	color:#000000;
+}
+
+table.regprocommon td,
+table.regprocommon th { padding: 4px; }
+
+table.regprocommon thead th {
+	text-align: center;
+	background: #f0f0f0;
+	color: #666;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #fff;
+}
+
+table.regprocommon thead a:hover { text-decoration: none; }
+
+table.regprocommon thead th img { vertical-align: middle; }
+
+table.regprocommon tbody th { font-weight: bold; }
+
+table.regprocommon tbody tr			{ background-color: #fff;  text-align: left;}
+table.regprocommon tbody tr.row1 	{ background: #f9f9f9; border-top: 1px solid #fff; }
+
+table.regprocommon tbody tr.row0:hover td,
+table.regprocommon tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.regprocommon tbody tr td 	   { height: 25px; background: #fff; border: 1px solid #fff;}
+table.regprocommon tbody tr.row1 td { background: #f9f9f9; border-top: 1px solid #FFF; }
+
+table.regprocommon tfoot tr { text-align: center;  color: #333; }
+table.regprocommon tfoot td,
+table.regprocommon tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.regprocommon td.order 		{ text-align: center; white-space: nowrap; }
+table.regprocommon td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+table.regprocommon .pagination { display:table; padding:0;  margin:0 auto;	 }
+
+/** End common Table styles **/
+
+/** Cart Table styles **/
+
+table.regprocart{
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color:#000000;
+}
+table.regprocart tr,td{
+	border:solid 0px;
+}
+
+table.regprocart td,
+table.regprocart th { padding: 4px; }
+
+table.regprocart thead th {
+	text-align: center;
+	background: #f0f0f0;
+	color: #666;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #fff;
+}
+
+table.regprocart thead a:hover { text-decoration: none; }
+
+table.regprocart thead th img { vertical-align: middle; }
+
+table.regprocart tbody th { font-weight: bold; }
+
+table.regprocart tbody tr			{ background-color: #fff;  text-align: left;}
+table.regprocart tbody tr.row1 	{ background: #f9f9f9; border-top: 1px solid #fff; }
+
+table.regprocart tbody tr.row0:hover td,
+table.regprocart tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.regprocart tbody tr td 	   { height: 20px; background: #fff; border: 1px solid #00000; border:solid 0px;}
+table.regprocart tbody tr.row1 td { background: #f9f9f9; border-top: 1px solid #FFF; border:solid 0px;}
+
+table.regprocart tfoot tr { text-align: center;  color: #333; }
+table.regprocart tfoot td,
+table.regprocart tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.regprocart td.order 		{ text-align: center; white-space: nowrap; }
+table.regprocart td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+table.regprocart .pagination { display:table; padding:0;  margin:0 auto;	 }
+
+/** End cart Table styles **/
+
+
+/** Main Listing Table styles **/
+
+table.adminlist {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color: #000000;
+}
+
+table.adminlist td,
+table.adminlist th { padding: 4px; }
+
+table.adminlist thead th {
+	text-align: center;
+	background: #f0f0f0;
+	color: #666;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #fff;
+}
+
+table.adminlist thead a:hover { text-decoration: none; }
+
+table.adminlist thead th img { vertical-align: middle; }
+
+table.adminlist tbody th { font-weight: bold; }
+
+table.adminlist tbody tr			{ background-color: #fff;  text-align: left; }
+table.adminlist tbody tr.row1 	{ background: #f9f9f9; border-top: 1px solid #fff; }
+
+table.adminlist tbody tr.row0:hover td,
+table.adminlist tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.adminlist tbody tr td 	   { height: 25px; background: #fff; border: 1px solid #fff; }
+table.adminlist tbody tr.row1 td { background: #f9f9f9; border-top: 1px solid #FFF; }
+
+table.adminlist tfoot tr { text-align: center;  color: #333; }
+table.adminlist tfoot td,
+table.adminlist tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.adminlist td.order 		{ text-align: center; white-space: nowrap; }
+table.adminlist td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+table.adminlist .pagination { display:table; padding:0;  margin:0 auto;	 }
+
+/******************************************************* End Table styles *******************************************************************************/
+
+
+/* pane-sliders */
+.pane-sliders .title {
+margin: 0;
+padding: 2px;
+color: #666;
+cursor: pointer;
+}
+
+.pane-sliders .panel { border: 1px solid #ccc; margin-bottom: 3px;}
+.pane-sliders .panel h3 { background: #f6f6f6; color: #666}
+.pane-sliders .content { background: #f6f6f6; }
+.pane-sliders .adminlist { border: 0 none; }
+.pane-sliders .adminlist td { border: 0 none; }
+.jpane-toggler span { background: transparent url("http://www.mspathens.org/components/com_registrationpro/assets/images/j_arrow.png") 5px 50% no-repeat; padding-left: 20px;}
+.jpane-toggler-down span { background: transparent url("../images/j_arrow_down.png") 5px 50% no-repeat; padding-left: 20px;}
+.jpane-toggler-down { border-bottom: 1px solid #ccc; }
+
+/* tabs */
+
+dl.tabs {
+float: left;
+margin: 10px 0 -1px 0;
+z-index: 50;
+}
+
+dl.tabs dt {
+float: left;
+padding: 4px 10px;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+border-top: 1px solid #ccc;
+margin-left: 3px;
+background: #f0f0f0;
+color: #666;
+}
+
+dl.tabs dt.open {
+background: #F9F9F9;
+border-bottom: 1px solid #F9F9F9;
+z-index: 100;
+color: #000;
+}
+
+div.current {
+clear: both;
+border: 1px solid #ccc;
+padding: 10px 10px;
+}
+
+div.current dd {
+padding: 0;
+margin: 0;
+}
+
+.regpro_bottom_border {
+	border-bottom: 1px solid;
+	border-right:0px;
+	border-left:0px;
+	border-top:0px;
+}
+
+/* ++++++++++++++  pagination  ++++++++++++++ */
+
+.pagination
+{
+        margin:10px 0 ;
+        padding:10px 0 10px 0px;
+		width:100%;
+
+}
+
+.pagination ul
+{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        text-align:left;
+}
+
+.pagination li
+{
+        display:inline;
+        padding:2px 5px;
+        text-align:left;
+        border:solid 0px #eee;
+        margin:0 2px
+}
+
+.pagenav
+{padding:2px}
+
+.pagination li.pagination-start,
+.pagination li.pagination-next,
+.pagination li.pagination-end,
+.pagination li.pagination-prev
+{border:0}
+
+.pagination li.pagination-start ,
+.pagination li.pagination-start  span
+ {
+padding:0
+
+}
+p.counter
+{
+        font-weight:bold;
+}
+
+/************************************ Don't change these classes (Use by javascript classes)*******************************/
+
+input.errHilite, select.errHilite, textarea.errHilite {
+	border: 1px solid #DDC;
+	background-color: #FFE;
+	}
+label.errHilite {
+	color: #C00;
+	}
+	
+div#errors {
+	display: none;
+	margin-top: 1em;
+	background-color: #FFE;
+	border: 1px solid #CC9;
+	padding: .3em;
+	color: #C00;
+	font-weight: bold;
+	}
+	
+div#errors li {
+	list-style-type: none;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	padding: 1px;
+	}
+div#errors li.heading {
+	list-style-type: none;
+	color: #000;
+	font-weight: normal;
+	font-style: normal;
+	margin: .2em 0;
+	padding: 1px;
+	}
+/***************************************** END Don't change these classes ****************************************/

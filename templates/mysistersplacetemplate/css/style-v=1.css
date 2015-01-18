@@ -1,0 +1,1501 @@
+
+html,
+ body,
+ div,
+ span,
+ object,
+ iframe,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ abbr,
+ address,
+ cite,
+ code,
+ del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ samp,
+ small,
+ strong,
+ sub,
+ sup,
+ var,
+ b,
+ i,
+ dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+ fieldset,
+ form,
+ label,
+ legend,
+ table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+ article,
+ aside,
+ figure,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ section,
+ menu,
+ time,
+ mark,
+ audio,
+ video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+article,
+ aside,
+ figure,
+ footer,
+ header,
+ hgroup,
+ nav,
+ section {
+	display:block;
+}
+
+nav ul {
+	list-style:none;
+}
+
+blockquote,
+ q {
+	quotes:none;
+}
+
+blockquote:before,
+ blockquote:after,
+ q:before,
+ q:after {
+	content:'';
+	content:none;
+}
+
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	text-decoration:none;
+}
+
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+
+mark {
+	background-color:#ff9;
+	color:#000;
+	font-style:italic;
+	font-weight:bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title],
+ dfn[title] {
+	border-bottom:1px dotted #000;
+	cursor:help;
+}
+
+/* tables still need cellspacing="0" in the markup */
+
+
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input,
+ select {
+	vertical-align:middle;
+}
+
+/* END RESET CSS */
+
+/*
+
+
+
+fonts.css from the YUI Library: developer.yahoo.com/yui/
+
+
+
+          Please refer to developer.yahoo.com/yui/fonts/ for font sizing percentages
+
+
+
+
+
+
+
+There are three custom edits:
+
+
+
+ * remove arial, helvetica from explicit font stack
+
+
+
+ * make the line-height relative and unit-less
+
+
+
+ * remove the pre, code styles
+
+
+
+*/
+
+
+
+body {
+	font:13px sans-serif;
+ *font-size:small;
+ *font:x-small;
+	line-height:1.22;
+}
+
+table {
+	font-size:inherit;
+	font:100%;
+}
+
+select,
+ input,
+ textarea {
+	font:99% sans-serif;
+}
+
+/* normalize monospace sizing 
+
+
+
+ * en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome
+
+
+
+ */
+
+
+
+pre,
+ code,
+ kbd,
+ samp {
+	font-family: monospace, sans-serif;
+}
+
+/* 
+
+
+
+ * minimal base styles 
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+/* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */ 
+
+
+
+body,
+ select,
+ input,
+ textarea {
+	color:#444;
+}
+
+/* Headers (h1,h2,etc) have no default font-size or margin,
+
+
+
+   you'll want to define those yourself. */ 
+
+
+
+ 
+
+
+
+/* www.aestheticallyloyal.com/public/optimize-legibility/ */ 
+
+
+
+h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+	font-weight: bold;
+	text-rendering: optimizeLegibility;
+}
+
+/* maxvoltar.com/archive/-webkit-font-smoothing */
+
+
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
+
+
+
+a:hover,
+ a:active {
+	outline: none;
+}
+
+a,
+ a:active,
+ a:visited {
+	color:#607890;
+}
+
+a:hover {
+	color:#6F7523;
+}
+
+ul {
+	margin-left:30px;
+}
+
+ol {
+	margin-left:30px;
+	list-style-type: decimal;
+}
+
+small {
+	font-size:85%;
+}
+
+strong,
+ th {
+	font-weight: bold;
+}
+
+td,
+ td img {
+	vertical-align:top;
+}
+
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+
+pre {
+	padding: 15px;
+	/* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
+
+
+
+  white-space: pre; /* CSS2 */
+	white-space: pre-wrap; /* CSS 2.1 */
+	white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+	word-wrap: break-word; /* IE */
+}
+
+/* align checkboxes, radios, text inputs with their label
+
+
+
+   by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
+
+
+
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+
+input[type="checkbox"] {
+	vertical-align: bottom;
+ *vertical-align: baseline;
+}
+
+.ie6 input {
+	vertical-align: text-bottom;
+}
+
+/* hand cursor on clickable input elements */
+
+
+
+label,
+ input[type=button],
+ input[type=submit],
+ button {
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* These selection declarations have to be separate.
+
+
+
+   No text-shadow: twitter.com/miketaylr/status/12228805301 
+
+
+
+   Also: hot pink. */
+
+
+
+::-moz-selection {
+ background: #FF5E99;
+ color:#fff;
+ text-shadow: none;
+}
+
+::selection {
+	background:#FF5E99;
+	color:#fff;
+	text-shadow: none;
+}
+
+/*  j.mp/webkit-tap-highlight-color */
+
+
+
+a:link {
+	-webkit-tap-highlight-color: #FF5E99;
+}
+
+/* always force a scrollbar in non-IE */
+
+
+
+html {
+	overflow-y: scroll;
+}
+
+/* make buttons play nice in IE:    
+
+
+
+   www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+
+
+
+button {
+	width: auto;
+	overflow: visible;
+}
+
+/* bicubic resizing for non-native sized IMG: 
+
+
+
+   code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+
+
+
+.ie7 img {
+	-ms-interpolation-mode: bicubic;
+}
+
+/* 
+
+
+
+ * Non-semantic helper classes 
+
+
+
+ */
+
+
+
+
+
+
+
+/* for image replacement */
+
+
+
+.ir {
+	display:block;
+	text-indent:-999em;
+	overflow:hidden;
+	background-repeat: no-repeat;
+}
+
+/* Hide for both screenreaders and browsers
+
+
+
+   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+
+
+
+.hidden {
+	display:none;
+	visibility:hidden;
+}
+
+/* Hide only visually, but have it available for screenreaders 
+
+
+
+   www.webaim.org/techniques/css/invisiblecontent/ 
+
+
+
+   Solution from: j.mp/visuallyhidden - Thanks Jonathan Neal! */
+
+
+
+.visuallyhidden {
+	position:absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Hide visually and from screenreaders, but maintain layout */
+
+
+
+.invisible {
+	visibility: hidden;
+}
+
+/* >> The Magnificent CLEARFIX << */
+
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+	line-height:0px;
+	height: 0;
+}
+
+* html .clearfix {
+	height: 1%;
+} /* Hides from IE-mac \*/
+
+.clearfix {
+	display: block;
+}
+
+/* Primary Styles
+
+
+
+    Author: 
+
+
+
+ */
+
+
+
+body {
+	background-color:#f0e7dc;
+	background-image:url("../images/msp_bg.jpg");
+	background-position:top center;
+	background-repeat:repeat;
+	font-family:"Times New Roman", Times, serif;
+	font-size:1.5em;
+	line-height:120%;
+	color:#141414;
+}
+
+#woodbg {
+	position:absolute;
+	height:400px;
+	z-index:-1;
+	background:url("../images/msp_wood_bg.jpg") top center repeat-x;
+	width:100%;
+}
+
+#woodbg-sm {
+	position:absolute;
+	height:90px;
+	z-index:-1;
+	background:url("../images/msp_wood_bg.jpg") bottom center repeat-x;
+	width:100%;
+}
+
+#container {
+	width:960px;
+	margin:0px auto;
+	position:relative;
+	height:auto;
+}
+
+/* Header Styles */
+
+
+
+#boiler {
+	width:100%;
+	background:url("../images/msp_header_bg.png") top left no-repeat;
+	height:113px;
+	margin-bottom:5px;
+	position:relative;
+}
+
+#msp_logo {
+	position:absolute;
+	top:15px;
+	left:15px;
+	display:block;
+}
+
+header ul.menu {
+	margin:0px 0px 0px 90px;
+	list-style:none;
+	color:#fee7cb;
+	font-size:16.5px;
+	line-height:100%;
+}
+
+header ul.menu li {
+	float:left;
+	position:relative;
+	margin:25px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	height:30px;
+	line-height:30px;
+}
+
+header ul.menu li:hover {
+	background:#fee7cb;
+}
+
+header ul.menu li:hover a {
+	color:black;
+}
+
+header ul.menu li:last-child {
+	border:none;
+}
+
+header ul.menu a {
+	color:#fee7cb;
+	z-index:3000;
+	border-right:1px solid #fee7cb;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+header ul.menu {
+	height:30px;
+	width:100%;
+	position:relative;
+	z-index:3000;
+	line-height:30px;
+}
+
+header ul.menu ul {
+	position:absolute;
+	left:0px;
+	border-top:1px solid black;
+	width:180px;
+	height:auto;
+	background:#fee7cb;
+	z-index:1000 !important;
+	margin:0px;
+	display:none;
+	padding-top:20px;
+	color:black;
+	padding-bottom:20px;
+	opacity:.95;
+}
+
+header ul.menu li:hover ul {
+	display:block;
+}
+
+header ul.menu ul li {
+	font-size:100%;
+	line-height:115%;
+	background:none;
+	font-weight:normal;
+	float:none;
+	border:none;
+	padding:0px 12px 8px 12px;
+	margin:0px;
+	height:auto;
+}
+
+header ul.menu ul li a {
+	padding:0px;
+}
+
+header ul.menu ul li a {
+	color:black;
+}
+
+header ul.menu ul li:hover {
+	background:none;
+}
+
+header ul.menu ul li a:hover {
+	border-bottom:1px solid black;
+}
+
+header .search {
+	position:absolute;
+	height:auto;
+	width:auto;
+	top:55px;
+	left:590px;
+}
+
+header .search label {
+	display:none;
+}
+
+header .search #mod-search-searchword {
+	height:20px;
+	width:185px;
+	background:#fef5e8;
+	border:none;
+	font-size:12px;
+	line-height:25px;
+	padding:3px;
+	color:#363636;
+}
+
+#exitnow {
+	position:absolute;
+	right:10px;
+	top:0px;
+}
+
+/* Top Styles */
+
+
+
+#top {
+	position:relative;
+	height:auto;
+	width:100%;
+	margin-bottom:20px;
+}
+
+/* left Styles */
+
+
+
+/* Right Styles */
+
+.right {
+	width:300px;
+	float:right;
+	position:relative;
+	height:auto;
+}
+
+.moduletable .donate-events {
+	height:576px;
+	width:260px;
+	background:url("../images/msp_events_donate_bg.jpg") top left no-repeat;
+	padding:290px 40px 40px 40px;
+	position:relative;
+}
+
+.moduletable .donate-events p {
+	font-size:17px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:120%;
+	color:#2e1a06;
+}
+
+.moduletable .donate-events hr {
+	border-top:1px solid #b19e7d;
+}
+
+.moduletable .donate-events h2 {
+	font-size:21px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:120%;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.moduletable .donate-events h3 {
+	color:#2d1a07;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:21px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.moduletable .donate-events a {
+	color:#417683;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+.moduletable .donate-events .link {
+	position:absolute;
+	width:270px;
+	height:220px;
+	top:45px;
+	left:50px;
+}
+
+.moduletable .donate-events .link a {
+	display:block;
+	width:270px;
+	height:220px;
+}
+
+.moduletable .donate-events h1 {
+	font-family: 'HoneyScriptLight', times, serif;
+	font-size:55px;
+	line-height:100%;
+	margin:0px;
+	font-weight:normal;
+	margin-bottom:15px;
+}
+
+/* Frame Article Template Styles */
+
+.frame_container {
+	padding:0px 0px 0px 180px;
+	position:relative;
+	width:auto;
+	height:auto;
+	display:block;
+}
+
+img.frame {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+/* Bottom Styles */
+
+.moduletable .safetyalert {
+	padding:20px;
+	border-top:1px solid #baae9e;
+	margin-top:40px;
+}
+
+.contacts {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	clear:both;
+	position:relative;
+	height:180px;
+	margin-top:30px;
+}
+
+.contacts p {
+	font-size:13px;
+}
+
+.contacts img {
+	margin-left:-20px;
+}
+
+a.facebook {
+	background:url("../images/msp_facebook_icon.png") top left no-repeat;
+	height:24px;
+	padding-left:35px;
+	display:inline-block;
+	color:#417683;
+	font-weight:bold;
+	line-height:24px;
+	font-size:14px;
+	margin-top:5px;
+}
+
+.contactcontainer {
+	float:left;
+	height:180px;
+	width:360px;
+}
+
+.phonenumbers {
+	height:180px;
+	width:580px;
+	font-size:15px;
+	float:left;
+	line-height:120%;
+}
+
+.phonenumbers .thirds {
+	width:30%;
+	margin-right:3%;
+	float:left;
+}
+
+.phonenumbers h4 {
+	font-size:15px;
+	line-height:120%;
+	margin:4px 0px 4px 0px;
+	padding:0px;
+	font-weight:bold;
+}
+
+/* Footer Styles */
+
+footer {
+	height:107px;
+	width:100%;
+	clear:both;
+	background:url("../images/msp_footer_bg.png") bottom left no-repeat;
+}
+
+footer ul.menu {
+	position:relative;
+	text-align:center;
+	margin:0px;
+	padding:40px 0px 0px 150px;
+	list-style:none;
+	font-size:14px;
+	line-height:14px;
+	width:auto;
+	height:30px;
+}
+
+footer ul.menu li {
+	float:left;
+	margin:0px 15px 0px 0px;
+	padding:0px 15px 0px 0px;
+	border-right:1px solid black;
+}
+
+footer ul.menu a {
+	color:black;
+}
+
+footer p {
+	color:black;
+}
+
+/* Phone Module */
+
+div.phone {
+	margin: -30px 0px 0px 0px;
+	z-index: -1;
+	padding: 73px 43px 0px 90px;
+	position: relative;
+	height: 127px;
+	font-size: 21px;
+	line-height: 130%;
+}
+
+div.phone img {
+	position:absolute;
+	top:0px;
+	left:30px;
+}
+
+/* Carousel Styling */
+
+.carousel_text {
+	position:absolute;
+	top:20px;
+	right:0px;
+	padding:30px;
+	width:400px;
+	background: url("../images/msp_cont_text_bg.png") top left repeat;
+}
+
+.carousel_text p {
+	color:#fef4e8;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0px;
+}
+
+.carousel_text h2 {
+	color:#fef4e8;
+	font-size: 29px;
+	line-height: 115%;
+	text-transform:none;
+}
+
+span.honey {
+	font-family: 'HoneyScriptLight';
+}
+
+.carousel_text span.honey {
+	font-size:40px;
+}
+
+/* Three Column Styles */
+
+
+
+#main {
+	position:relative;
+	width:auto;
+	height:auto;
+}
+
+/* 
+
+.table {
+	display: table;
+	vertical-align:top;
+}
+
+.tablerow {
+	display: table-row;
+	vertical-align:top;
+}
+
+.tablecell {
+	display: table-cell;
+	width:auto;
+	vertical-align:top;
+}
+
+*/
+
+
+.columns {
+	width:100%;
+	clear:both;
+	height:auto;
+}
+
+.center {
+	width:600px;
+	float:left;
+	margin-bottom:30px;
+}
+
+.fullwidth {
+	width:960px;
+}
+
+.fifty {
+	width:430px;
+	float:left;
+	margin-right:40px;
+}
+
+.end {
+	margin-right:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+ * print styles
+
+
+
+ * inlined to avoid required HTTP connection www.phpied.com/delay-loading-your-print-css/ 
+
+
+
+ */
+
+
+
+ 
+
+
+
+@media print {
+
+* {
+	background: transparent !important;
+	color: #444 !important;
+	text-shadow: none;
+}
+
+a,
+ a:visited {
+	color: #444 !important;
+	text-decoration: underline;
+}
+
+a:after {
+	content: " (" attr(href) ")";
+}
+
+abbr:after {
+	content: " (" attr(title) ")";
+}
+
+.ir a:after {
+	content: "";
+}  /* Don't show links for images */
+
+pre,
+ blockquote {
+	border: 1px solid #999;
+	page-break-inside: avoid;
+}
+
+img {
+	page-break-inside: avoid;
+}
+ @page {
+ margin: 0.5cm;
+}
+
+p,
+ h2,
+ h3 {
+	orphans: 3;
+	widows: 3;
+}
+
+h2,
+ h3 {
+	page-break-after: avoid;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+ * Media queries for responsive design
+
+
+
+ */
+
+
+
+
+
+
+
+@media all and (orientation:portrait) {
+/* Style adjustments for portrait mode goes here */
+
+
+
+  
+
+
+
+}
+ @media all and (orientation:landscape) {
+/* Style adjustments for landscape mode goes here */
+
+
+
+  
+
+
+
+}
+
+
+
+
+
+
+
+/* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)  
+
+
+
+   Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+
+
+
+@media screen and (max-device-width: 480px) {
+
+/* Prevent iOS, WinMobile from adjusting font size */
+
+
+
+  html {
+	-webkit-text-size-adjust:none;
+	-ms-text-size-adjust:none;
+}
+}
+
+/* Reg Pro Styles */
+
+.regpro_header_table-regpro {
+	display:none;
+}
+
+.regpro_outline {
+	border:none;
+	background:none;
+}
+
+table.adminlist {
+	background-color:transparent;
+}
+
+table.adminlist tbody tr td {
+	height: 25px;
+	background: transparent;
+	border: none;
+}
+
+table.adminlist tbody tr {
+	background-color: transparent;
+	border-bottom: dotted 1px;
+}
+
+.regpro_detailsheading {
+	color: #600;
+	font-family: 'HoneyScriptLight';
+	font-size: 55px;
+	line-height: 110%;
+	font-weight: normal;
+}
+
+table.adminlist,
+table.adminlist tbody tr td a {
+	font-size: 12px;
+	color: #4F575A;
+}
+
+.regpro_vtop_aleft,
+.regpro_vtop_aleft a {
+	vertical-align: top;
+	text-align: left;
+	font-size: 17px !important;
+}
+
+table tbody tr td strong {
+	padding:18px;
+	color: #600;
+	font-family: 'HoneyScriptLight';
+	font-size: 45px;
+	line-height: 110%;
+	text-transform:capitalize;
+	display:block;
+}
+
+table.regprocommon {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: transparent;
+	color: #4F575A;
+	font-size:17px;
+}
+
+.fValidator-form input,
+select {
+	BACKGROUND-COLOR: #FFF;
+	margin-left: 5%;
+	COLOR: #600;
+	BORDER-RIGHT: #A6A6A6 1px solid;
+	BORDER-TOP: #A6A6A6 1px solid;
+	BORDER-LEFT: #A6A6A6 1px solid;
+	BORDER-BOTTOM: #A6A6A6 1px solid;
+	PADDING-RIGHT: 2px;
+	PADDING-LEFT: 2px;
+	FONT-SIZE: 16px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+	border-right: 1px solid #A6A6A6;
+	border-top: 1px solid #A6A6A6;
+	border-left: 1px solid #A6A6A6;
+	border-bottom: 1px solid #A6A6A6;
+}
+
+.fValidator-form input {
+	width:80%;
+	height:22px;
+	margin-bottom:20px;
+	margin-left:5%;
+	font-size:16px;
+	color:#600;
+	padding:3px;
+}
+
+.regpro_sectiontableheader table th {
+	font-size:20px;
+	color:#fff;
+}
+
+table.regprocommon {
+	margin-bottom:20px;
+}
+
+input.regpro_button {
+	align:right;
+	border-top: 1px solid #706943;
+	background: #380c09;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6b4d29), to(#380c09));
+	background: -webkit-linear-gradient(top, #6b4d29, #380c09);
+	background: -moz-linear-gradient(top, #6b4d29, #380c09);
+	background: -ms-linear-gradient(top, #6b4d29, #380c09);
+	background: -o-linear-gradient(top, #6b4d29, #380c09);
+	padding: 10px 20px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: #fff7d1;
+	font-size: 14px;
+	font-family: Georgia, Serif;
+	text-decoration: none;
+	vertical-align: middle;
+	margin-left:600px;
+	width:auto;
+	height:auto;
+}
+
+input.regpro_button:hover {
+	border-top-color: #bda684;
+	background: #bda684;
+	color: #471912;
+}
+
+input.regpro_button:active {
+	border-top-color: #331804;
+	background: #331804;
+}
+
+#listcart {
+	font-size:17px;
+	font-family:georgia;
+	color:#4F575A;
+}
+
+table.regproform td {
+	padding: 8px;
+	text-align: left;
+	border: solid 0px;
+	border-bottom: dotted 1px #A6A6A6 !important;
+	border-top: solid 0px;
+}
+
+table.regprocart {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: transparent;
+	color: #4F575A;
+	font-size:17px;
+}
+
+table.regprocommon td,
+table.regprocommon th {
+	padding: 8px;
+	horizontal-align:center;
+}
+
+table.regprocart td,
+table.regprocart th {
+	padding: 8px;
+	horizontal-align:center;
+}
+
+table.regprocommon thead th,
+th.regpro_sectiontableheader,
+.regpro_sectiontableheader,
+table.regprocart thead th {
+	font-family: 'HoneyScriptLight';
+	padding: 10px !important;
+	font-size: 28px !important;
+	line-height: 110%;
+	text-align: center;
+	background: transparent;
+	background: url("../images/msp_cont_text_bg.png") top left repeat;
+	color: #FEF4E8 !important;
+	border-bottom: 2px solid #600;
+	border-left: 1px dotted #600;
+	text-transform: capitalize;
+}
+
+#regproDetails {
+	max-width:100%;
+}
+
+ul.actions {
+	display:none;
+	visibility:hidden;
+}
+
+/* Bottom Styles */
+
+#bottom {
+	clear:both;
+	width:100%;
+	margin-top:30px;
+}
+
+/* Articles */
+
+.services {
+	background:url("../images/msp_services_pic.jpg") top left no-repeat;
+	width:815px;
+	clear:both;
+	height:610px;
+	padding:50px;
+}
+
+.contactbg {
+	background:url("../images/msp_contact_bg.jpg") top left no-repeat;
+	width:100%;
+	height:520px;
+	clear:both;
+	position:relative;
+	margin-bottom:60px;
+}
+
+.contactbg .padding {
+	padding:50px 90px;
+}
+.contactbg .small {
+	position:absolute;
+	bottom:0px;
+	left:90px;
+	height:100px;
+}
+.contactbg .small p {
+	font-size:20px;
+	line-height:26px;
+}
+
+li.checked {
+	background:url("../images/msp_checked.png") top left no-repeat;
+	padding-left:40px;
+	list-style:none;
+	margin-bottom:20px;
+	overflow:hidden;
+	clear:both;
+	padding-right:40px;
+}
+
+li.unchecked {
+	background:url("../images/msp_unchecked.png") top left no-repeat;
+	padding-left:40px;
+	list-style:none;
+	margin-bottom:20px;
+	overflow:hidden;
+	clear:both;
+	padding-right:40px;
+}
+
+li .separator {
+	padding-left:10px;
+	padding-right:10px;
+	border-right: 1px solid #FEE7CB;
+}
+
+header nav li:hover .separator {
+	color:black;
+}
+	
+
+
+
+
+
+/* END Reg Pro Styles */

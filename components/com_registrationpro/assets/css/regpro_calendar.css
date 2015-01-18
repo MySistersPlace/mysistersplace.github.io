@@ -1,0 +1,134 @@
+.regpro_calendarWeekDayHeader { 
+	font-weight: bolder;
+	background-color: #d2d2d2;	
+	text-align:center;
+	vertical-align:middle;
+	padding-top:5px;
+} 
+.regpro_calendarMonthHeader{
+	background-color: #d2d2d2;	
+	text-align:center;
+	vertical-align:middle;	
+}
+.regpro_calendarToday { 
+	background-color: #efefef;
+	color:#FF0000;
+	width:60px;
+	height:60px;
+	padding-top:8px;
+	text-align:center;
+	vertical-align:top;
+	font-size:12px;
+	font-style:normal;
+	font-weight:bolder;
+	text-decoration:blink;
+}
+.regpro_calendarDay { 
+	background-color: #efefef;
+	width:60px;
+	height:60px;
+	padding-top:8px;
+	vertical-align:top;
+	text-align:center;
+	font-size:12px;
+	font-style:normal;
+}
+.regpro_calenderday_highlight {
+	background-color: #FFFFFF;
+	width:60px;
+	height:60px;
+	padding-top:8px;
+	text-align:center;
+	vertical-align:top;
+	font-size:12px;
+	font-style:normal;
+	font-weight:bolder;
+}
+.regpro_calendar { 
+	background-color:#d2d2d2;
+	border:#666666;
+	border: 1px solid #cccccc;
+    background: #ffffff;
+    padding: 2px;
+    color:#000000;
+	vertical-align:top;
+}
+.regpro_calendar_table {
+	border: 0.5px #d2d2d2 solid;	
+
+}
+.regpro_calendar_table td{
+	border: 1px #d2d2d2 solid;
+}
+
+/* month and year classes */
+.regpro_calendar_months{	
+	height:22px;
+	text-align:left;
+	border: 0px #c9d8fc;
+	background-color: #efefef;	
+	vertical-align:top;
+	margin: 0;
+	font-size:14px;
+}
+.regpro_calendar_months:hover{
+	background:#FFFFFF;
+}
+.regpro_calendar_years{	
+	height:22px;
+	text-align:left;
+	border: 0px #c9d8fc;
+	background-color: #efefef;	
+	vertical-align:top;
+	margin: 0;
+	font-size:14px;
+}
+.regpro_calendar_years:hover{
+	background:#FFFFFF;
+}
+
+.regpro_calendar_categories{	
+	height:22px;
+	width:130px;
+	text-align:left;
+	border: 0px #c9d8fc;
+	background-color: #efefef;	
+	vertical-align:top;
+	margin: 0;
+	font-size:14px;
+}
+
+.regpro_calendar_categories_span{	
+	height:22px;
+	width:2px;
+	text-align:left;
+	border: 0px #c9d8fc;	
+	vertical-align:middle;
+	margin: 0;
+	font-size:14px;
+}
+/* End Month/Years */
+
+
+/* Tooltip css classes */
+.custom-tip {
+	Z-INDEX: 13000; WIDTH: 250px; COLOR: #000
+}
+.custom-title {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #a3cef6; PADDING-BOTTOM: 4px; MARGIN: 0px; COLOR: #3e4f14; PADDING-TOP: 4px; BORDER-BOTTOM: #135cae 1px solid
+}
+.custom-text {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 11px; BACKGROUND: #cee9fb; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.tooptip_detail {
+	text-align:left;
+	vertical-align:top;
+}
+
+/*.tip { Z-INDEX: 13000; WIDTH: AUTO; COLOR: #000; left top repeat-y; }
+.tip-top {}
+.tip-title { PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #a3cef6; PADDING-BOTTOM: 4px; MARGIN: 0px; COLOR: #3e4f14; PADDING-TOP: 4px; BORDER-BOTTOM: #135cae 1px solid;}
+.tip-text { PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 11px; BACKGROUND: #cee9fb; PADDING-BOTTOM: 4px; PADDING-TOP: 4px;}
+.tip-bottom {}*/
+
+/* End Tooltip */
